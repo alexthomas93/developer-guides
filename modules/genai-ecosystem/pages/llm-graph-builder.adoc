@@ -29,7 +29,7 @@ Afterwards you can use different RAG approaches (GraphRAG, Vector, Text2Cypher) 
 ====
 
 The front-end is a React Application and the back-end a Python FastAPI application running on Google Cloud Run, but you can deploy it locally using docker compose.
-It uses the https://python.langchain.com/docs/use_cases/graph/constructing[llm-graph-transformer module^] that Neo4j contributed to LangChain and other langchain integrations (e.g. for GraphRAG search).
+It uses the https://python.langchain.com/v0.1/docs/use_cases/graph/constructing[llm-graph-transformer module^] that Neo4j contributed to LangChain and other langchain integrations (e.g. for GraphRAG search).
 
 All Features are documented in detail here: xref::llm-graph-builder-features.adoc[]
 
